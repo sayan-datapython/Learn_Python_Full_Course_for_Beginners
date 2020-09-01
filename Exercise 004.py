@@ -1,0 +1,8 @@
+n = input("Enter anything: ")
+print("O tipo primitivo desde valor: ", type(n))
+print("Somente espaco:", n.isspace())
+print("E numerico:", n.isnumeric())
+print("E alfabetico: ", n.isalpha())
+print("E alfanumerico: ", n.isalnum())
+print("E Upper: ", n.isupper())
+print("E low: ", n.islower())
